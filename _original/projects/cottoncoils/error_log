@@ -1,0 +1,3 @@
+[13-Dec-2013 02:13:58] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/dbryant/public_html/cottoncoils/includes/functions.php on line 37
+[13-Dec-2013 02:13:59] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/dbryant/public_html/cottoncoils/includes/functions.php on line 37
+[13-Dec-2013 03:00:23] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/dbryant/public_html/cottoncoils/userforum.php on line 27

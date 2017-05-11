@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+/***** Sticky Footer *****/
+
+html, body
+{height: 100%;
+width: 100%;
+background: #708090;
+color: #ffffff;
+font-family: Baskerville Old Face, Georgia, serif;}
+
+#wrapper
+{min-height: 100%;
+width: 987px;
+margin: 0 auto;
+position: relative;
+overflow: hidden;}
+
+#content
+{padding-bottom: 40px;}
+
+footer
+{width: 987px;
+padding-top: 20px;
+height: 40px;
+position: absolute;
+bottom: 0;
+text-align: center;
+clear: both;}
+
+address
+{font-style: normal;
+font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1em;}
+
+p
+{line-height: 1.5;}
+
+/***** Basic Styles *****/
+
+header
+{height: 200px;}
+
+header h1
+{font-size: 6em;
+font-family: Baskerville Old Face, Georgia, serif;
+text-align: left;
+color: #ffffff;}
+
+header h2
+{font-size: 2em;
+font-family: Baskerville Old Face, Georgia, serif;
+color: #ffffff;
+text-align: left;
+margin: -65px 0px 0px 100px;}
+
+a.logo
+{text-decoration: none;}
+
+.sourcelink
+{float: left;
+clear: both;
+text-decoration: none;
+font-size: 0.8em;
+color: #ffffff;
+margin: 0;}
+
+a.readmore:hover
+{color: #ca8697;}
+
+/***** Homepage *****/
+
+.video
+{float: left;
+margin-bottom: -10px;
+border: none;}
+
+div.homecol1-2
+{clear: both;
+margin-top: 30px;}
+
+div.videoinfo
+{float: right;
+line-height: 1;}
+
+hr
+{width: 100%;
+border-color: #ca8697;}
+
+hr.hrvideo
+{margin-top: 10px;}
+
+div.videoinfo h3
+{font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1.4em;
+text-align: left;
+margin-bottom: -10px;}
+
+div.videoinfo p
+{font-family: Baskerville Old Face, Georgia, serif;
+line-height: 1.4;
+font-size: 1em;
+text-align: left;
+margin-bottom: 0;}
+
+div.squatsinfo h3
+{font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1.4em;
+text-align: left;
+margin: 0;}
+
+div.squatsinfo img
+{float: left;
+margin-right: 10px;
+margin-top: 10px;}
+
+div.squatsinfo h4 
+{float: left;
+font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1.2em;
+text-align: left;
+margin: 10px 30px 10px 0px;}
+
+div.squatsinfo p, div.carbsinfo p
+{margin-top: 5px;
+font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1em;
+line-height: 1.4;}
+
+hr.squatsinfo
+{margin-top: 20px;}
+
+div.carbsinfo img
+{float: left;
+margin-right: 10px;}
+
+div.carbsinfo h4
+{float: left;
+font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1.2em;
+text-align: left;
+margin: 0px 70px 10px 0px;}
+
+div.homecol2-2
+{float: right;
+margin-top: -170px;}
+
+div.homecol2-2 img
+{margin-right: 21px;}
+
+div.homecol2-2 h4
+{font-family: Baskerville Old Face, Georgia, serif;
+font-size: 1.2em;
+text-align: left;
+margin: 10px 30px 10px 0px;}
+
+/***** Nutrition *****/
+
+div.nutcol1 h3
+{font-size: 2em;
+margin-top: 20px;}
+
+div.nutcol1 hr
+{margin-top: 30px;}
+
+div.nutcol1 img
+{margin-bottom: 20px;}
+
+div.nutcol1 p
+{font-size: 1.5em;}
+
+div.nutcol1 ul
+{font-size: 1.25em;
+list-style: none;
+line-hieght: 1.5;}
+
+div.nutcol1 ul li
+{margin-bottom: 10px;}
+
+ul.nutritionrules
+{padding-left: 0px;}
+
+.nut-girl
+{margin-top: 20px;}
+
+/***** Training *****/
+
+div.training hr
+{margin-top: 30px;}
+
+div.training h3
+{font-size: 2em;
+margin-top: 20px;}
+
+div.training h4
+{font-size: 1.5em;}
+
+div.training p
+{line-height: 1.4;
+font-size: 1.25em;}
+
+div.abroutine
+{clear: both;}
+
+div.abroutine ul
+{list-style: none;
+padding-left: 0;}
+
+div.abroutine ul li
+{font-size: 1.25em;
+margin-bottom: 10px;}
+
+div.warning p
+{clear: both;
+float: left;
+font-size: 1em;}
+
+.absimg
+{float: right;}
+
+/***** Navigation Links *****/
+
+a
+{color: #ffffff;
+text-decoration: none;}
+
+nav.main-nav
+{clear: both;
+height: 40px;
+white-space: no-wrap;
+background: #ca8697;
+font-size: 1.2em;
+font-family: Baskerville Old Face, Georgia, serif;}
+
+nav.main-nav ul
+{width: 100%;
+display: block;
+margine: 0 auto;
+text-align: center;}
+
+nav.main-nav li
+{display: inline-block;
+float: left;
+width: 22%;
+margin-right: 20px;
+margin-top: 10px;
+text-align: center;
+float: left;}
+
+nav.main-nav li a
+{display: block;
+color: #ffffff;
+text-decoration: none;}
+
+nav.main-nav li a:hover
+{color: #708090;}
+
+/***** Forum Styles *****/
+
+div.forum_header hr
+{margin-top: 30px;}
+
+div.forum_header h3
+{font-size: 2em;
+margin-top: 10px;
+margin-bottom: 0px;}
+
+div.forum_header p
+{font-size: 1.25em;
+margin-top: 0;
+margin-bottom: 0;}
+
+nav.forum_links ul
+{list-style: none;}
+
+nav.forum_links ul li
+{display: inline;
+margin-right: 20px;
+font-size: 1.25em;}
+
+nav.forum_links li a:hover
+{color: #ca8697;}
+
+/********** Login/Register Styles **********/
+
+#signin, #registration, #posts
+{float: left;
+clear: both;}
+
+label
+{float: left;
+clear: both;
+font-size: 1.25em;
+color: #ffffff;}
+
+.buttons
+{float: left;
+clear: both;
+margin-top: 10px;
+margin-bottom: 10px;
+height: 30px;
+width: 100px;
+color: #ffffff;
+background: #ca8697;
+border: none;
+border-radius: 5px;}
+
+.buttons:hover
+{border: solid 2px #44515d;}
+
+.logoff
+{float: right;
+margin-top: -40px;
+padding: 0;}
+
+input.textbox
+{float: left;
+clear: both;
+height: 25px;
+width: 250px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}
+
+.otherlinks
+{float: left;
+clear: both;
+margin-top: 20px;
+text-decoration: none;
+font-size: 1em;
+color: #ffffff}
+
+.otherlinks:hover
+{color: #ca8697;}
+
+/********** Forum Styles **********/
+
+#signin h4
+{color: #ffffff;
+font-size: 2em;
+margin-bottom: 10px;}
+
+.echo_title 
+{color: #ffffff;
+font-size: 1.3em;
+margin-bottom: 10px;}
+
+.echo_time, .echo_screen
+{color: #ffffff;
+font-size: 1em;
+margin-right: 20px;
+float: right;}
+
+.echo_content
+{font-size: 1em;}
+
+.echo_content a:hover
+{color: #ca8697;}
+
+nav.forum_links
+{float: right;
+margin-top: -60px;}
+
+input.subject
+{float: left;
+clear: both;
+height: 25px;
+width: 500px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}
+
+textarea.postbox
+{float: left;
+clear: both;
+height: 300px;
+width: 500px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}

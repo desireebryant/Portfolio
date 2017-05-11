@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/*********** Sticky Footer **********/
+*
+{margin: 0;}
+
+html, body 
+{height: 100%;
+color: #ffffff;
+font-family: 'Raleway', sans-serif;}
+
+h1 
+{text-align: center;
+font-size: 3em;}
+
+h2
+{text-align: center;
+font-size: 2em;}
+
+#wrapper 
+{min-height: 100%; 
+height: 100%;
+width: 100%
+margin: 0 auto;
+position: relative;}
+
+#content 
+{width: 987px;
+margin: 0 auto;
+padding-bottom: 30px;}
+
+footer
+{width: 100%;
+height: 30px;
+position: absolute;
+bottom: 0;
+text-align: center;
+padding-bottom: 30px;}
+
+address
+{font-style: normal;}
+
+/***** Horoscope Inputs *****/
+
+#chinese_zodiac, #western_zodiac
+{margin-left: 10px;
+margin-bottom: 50px;}
+
+label
+{text-align: center;
+font-size: 1.4em;}
+
+input.textbox
+{margin: 10px;}
+
+#sbmt, #sbmt2
+{background: #00a86b;
+margin-top: 5px;
+border: none;
+border-radius: 5px;
+height: 3em;
+width: 10em;
+color: #ffffff;
+font-size: 1em;}
+
+input#birthday, input#birthmonth, input#birthdate
+{height: 3em;
+width: 15em;
+margin-left: 0;
+border: none;
+background: #cccccc;}
+
+::-webkit-input-placeholder
+{padding-left: 10px;}
+
+:-moz-placeholder
+{padding-left: 10px;}
+
+::-moz-placeholder
+{padding-left: 10px;}
+
+:-ms-input-placeholder
+{padding-left: 10px;}
+
+/***** Desktop version styles *****/
+
+.background
+{height: 100%;
+width: 100%;
+display: block;
+position: relative;
+z-index: 5;}
+
+.background-image
+{height: 100%;
+width: 100%;
+position: fixed;
+z-index: -999;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: url(../images/background.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+
+h2.desktop
+{margin-bottom: 30px;}
+
+nav.main-nav2, p.mobiletext
+{display: none;}
+
+div#showdate, div#showdate2
+{margin-top: 30px;
+font-size: 1.2em}
+
+p.mobiletext
+{display: none;}
+
+/***** iphone & iframe styles *****/
+
+iframe.mobileview
+{z-index: 9999;
+top: 125px;
+left: 323px;
+position: relative;
+border: none;
+border-radius: 2px;
+overflow: auto;}
+
+
+img.phoneimg
+{width: 406px;
+height: 750px;
+margin-top: 0;
+margin-left: -50px;
+position: absolute;
+z-index: 1;}
+
+/***** Tablet View *****/
+
+@media only screen and (max-width: 800px){
+
+html, body
+{background: #003153;}	/* Color book: Prussian Blue */
+
+div.background
+{overflow: auto;}
+
+div.background-image
+{display: none;}
+
+#content
+{max-width: 95%;}
+
+.mobileview, .phoneimg
+{display: none;}
+
+h1.main-head
+{text-align: center;}
+
+nav.main-nav2, p.mobiletext
+{display: block;}
+
+p.mobiletext
+{text-align: center;
+line-height: 1;
+font-size: 1.8em;
+padding: 5px;
+margin-top: 20px;}
+
+nav.main-nav2
+{width: 100%;
+margin: 0 auto;
+margin-left: 0;
+margin-right: 0;
+margin-bottom: 50px;
+padding-right: 0;
+clear: both;}
+
+nav.main-nav2 li
+{text-align: center;
+list-style: none;
+border: solid 1px #ffffff;
+border-radius: 5px;
+background: none;
+display: block;
+margin-bottom: 3px;
+}
+
+nav.main-nav2 a
+{display: block;
+padding: 10px;
+text-align: center;
+font-size: 1.5em;
+color: #ffffff;
+text-decoration: none;}
+
+nav.main-nav2 a:hover
+{border-radius: 5px;
+background: #00a86b;} /* Color book: Jade */
+
+nav.main-nav2 ul
+{padding-left: 0;
+text-align: center;
+margin: 0 auto;
+width: 95%;}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+#wrapper
+{overflow: auto;}
+
+h1.main-head
+{width: 90%;
+margin-left: 20px;
+text-align: center;}
+
+h2.desktop
+{display: none;}
+
+footer
+{display: none;}
+
+}
+
+@media only screen and (max-width: 250px) {
+
+html, body
+{font-size: 5vmin;}
+
+input#birthday, input#birthmonth, input#birthdate
+{width: 90%;}
+
+}
+
+@media only screen and (max-width: 200px) {
+
+html, body
+{font-size: 4vmin;}
+
+}

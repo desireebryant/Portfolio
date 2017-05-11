@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+/*********** Sticky Footer **********/
+
+html, body 
+{height: 100%;
+width: 100%;
+background-color: #EAC491;
+color: #603631;
+font-family: georgia;}
+
+#wrapper 
+{min-height: 100%;
+max-width: 987px;
+margin: 0 auto;
+position: relative;
+overflow: auto;}
+
+#content 
+{padding-bottom: 40px;} 
+
+footer
+{width: 987px;
+height: 40px;
+padding-top: 20px;
+position: absolute; 
+bottom: 0;
+text-align: center;
+font-size: 1.2em;}
+
+address
+{padding-top: 20px;
+font-size: 0.75em;}
+
+#homepage article
+{margin-bottom: 100px;}
+
+/************** Background Image ************/
+
+#background
+{height: 100%;
+width: 100%;
+display: block;
+position: relative;
+z-index: 5;}
+
+#background-image
+{height: 100%;
+width: 100%;
+position: fixed;
+z-index: -999;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: url(../images/japaneseflowers.jpg) no-repeat center center;
+background-size: cover;
+opacity: 0.3;}
+
+/********** Navigation Bar **********/
+
+nav
+{margin: 0;
+padding: 0;
+clear: both;}
+
+nav li a
+{margin: 0px 20px 0px 0;
+font-size: 1.4em;}
+
+nav li a:hover
+{color: #BC4926;}
+
+nav li ul
+{position: absolute;
+z-index: 9999;}
+
+nav ul ul
+{display: none;}
+
+nav ul li:hover > ul
+{display: block;}
+
+nav ul
+{list-style: none;
+position: relative;
+display: inline;
+padding: 0;}
+
+nav ul:after
+{content: "";
+clear: both;
+display: block;}
+
+nav ul li
+{display: inline-block;}
+
+nav ul li a
+{color: #44515d;
+text-decoration: none;}
+
+nav ul ul
+{top: 100%;}
+
+nav ul ul li 
+{float: left;
+background: #d47261;
+width: 15em;
+height: 2em;
+border: solid 1px #44515d;
+position: relative;
+top: 5px;
+font-size: 0.8em;
+padding: 5px 0px 5px 10px;}
+
+nav ul ul li:hover
+{background: #f2dcbd;}
+
+nav ul ul li a
+{color: #f2dcbd;}
+
+nav ul ul li a:hover
+{color: #44515d;}
+
+nav ul ul ul
+{position: absolute;
+left: 100%;
+top: 0;}
+
+
+/********** Page Layout **********/
+
+p
+{font-size: 1.25em;}
+
+p.brokentext
+{float: left;
+clear: both;
+font-size: 1.5em;}
+
+.logo
+{float: left;
+margin: 20px 10px 0px 0px;
+height: 119px;
+width: 97px;}
+
+h1
+{font-family: 'Redressed', cursive;
+font-size: 6em;
+float: left;
+margin: 0px 0px 0px 10px;
+color: #603631;}
+
+h2
+{font-family: 'Redressed', cursive;
+font-size: 2em;
+float: left;
+margin: -40px 0px 30px 120px;
+clear: both;
+color: #603631;}
+
+h3
+{font-weight: bold;
+font-size: 1.3em;
+float: left;
+clear:both;}
+
+h4
+{font-weight: bold;
+font-size: 1.2em;
+margin-bottom: 10px;
+float: left;
+clear: both;}
+
+table
+{float: left;
+clear: both;
+margin: 20px 0px 100px 0px;}
+
+p.instructions
+{clear: both;
+float: left;
+font-size: 1.2em;
+margin-top: -20px;}
+
+.main_image
+{float:left;
+height: 300px;
+width: 483px;
+margin: 0px 30px 0px 0px;
+clear: both;}
+
+.main_para
+{margin: 20px 0px 20px 0px;
+overflow: auto;
+display: block;}
+
+.col_1
+{clear: both;
+float: left;
+margin: 10px 21px 20px 0px;
+width: 315px;}
+
+.col_2
+{float: left;
+margin: 10px 21px 20px 0px;
+width: 315px;}
+
+.col_3
+{float: right;
+margin: 10px 0px 20px 0px;
+width: 315px;}
+
+hr
+{clear: both;
+height: 2px;
+background-color: #44515d;
+margin-top: 10px;}
+
+p.instructions, p.directions
+{float: left;
+clear: both;
+font-size: 1.2em;}
+
+p.sillyfoot
+{margin-bottom: 100px;}
+
+/********** Login/Register Styles **********/
+
+#signin, #registration, #posts
+{float: left;
+clear: both;}
+
+label
+{float: left;
+clear: both;
+font-size: 1em;
+color: #44515d;}
+
+.buttons
+{float: left;
+clear: both;
+margin-top: 10px;
+height: 30px;
+width: 100px;
+color: #f2dcbd;
+background: #c94f3a;
+border: none;
+border-radius: 5px;}
+
+.buttons:hover
+{border: solid 2px #44515d;}
+
+.logoff
+{float: right;
+margin-bottom: 20px;
+margin-top: -30px;
+padding: 0;}
+
+input.textbox
+{float: left;
+clear: both;
+height: 25px;
+width: 250px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}
+
+.otherlinks
+{float: left;
+clear: both;
+margin-top: 20px;
+text-decoration: none;
+font-size: 1em;
+color: #44515d;}
+
+.otherlinks:hover
+{color: #c94f3a;}
+
+.readlink
+{margin-top: 0;
+text-decoration: none;
+font-size: 1em;
+color: #44515d;}
+
+/********** Forum Styles **********/
+
+.echo_title 
+{color: #44515d;
+font-family: times;
+font-size: 1.3em;}
+
+.echo_time, .echo_screen
+{color: #44515d;
+font-family: times;
+font-size: 1em;
+margin-right: 20px;
+float: right;}
+
+.echo_content
+{font-family: times;
+font-size: 1em;}
+
+nav.forum_links
+{float: right;
+margin-top: -60px;}
+
+input.subject
+{float: left;
+clear: both;
+height: 25px;
+width: 500px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}
+
+textarea.postbox
+{float: left;
+clear: both;
+height: 300px;
+width: 500px;
+margin: 10px 0 10px 0;
+padding: 5px;
+border: solid 2px #44515d;
+border-radius: 5px;}
+
+/********** Character Box Layout **********/
+
+table
+{width: 90%;}
+
+table#base, table#kanji
+{border: 0;
+width: 0;
+border-collapse: collapse;
+clear: left;}
+
+table#base td, table#voiced td, table#diphthongs td,
+table#kanji td
+{width: 6rem;
+height: 6rem;
+overflow: hidden;}
+
+/********** Keeps perspective of container **********/
+
+.card, .kanjicard
+{-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-o-perspective: 1000;
+perspective: 1000;
+width: 63px;
+height: 63px;
+overflow: hidden;}
+
+/********** Flips block when hovered **********/
+
+.card:hover .block, .card.hover .block, .kanjicard:hover .kanjiblock, .kanjicard.hover .kanjiblock
+{-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);}
+
+/********** Flip Speed **********/
+
+.block, .kanjiblock
+{-webkit-transition: 0.6s;
+-webkit-transform-style: preserve-3d;
+-moz-transition: 0.6s;
+-moz-transform-style: preserve-3d; 
+-o-transition: 0.6s;
+-o-transform-style: preserve-3d;
+transition: 0.6s;
+transform-style: preserve-3d;
+position: relative;}
+
+/********* Hides back of block during flip **********/
+
+.front, .back, .kanjifront, .kanjiback
+{-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+backface-visibility: hidden;
+position: absolute;
+top: 0;
+left: 0;}
+
+.front, .kanjifront
+{width: 63px;
+height: 63px;
+border-radius: 50px;
+background: #44515d;
+color: #ffffff;
+font-family: meiryo;
+font-size: 1.8em;
+text-align: center;
+vertical-align: middle;
+z-index: 2;
+margin: 0 auto;
+line-height: 2.5em;}
+
+.back, .kanjiback
+{-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+border-radius: 50px;
+width: 63px;
+height: 63px;
+background: #44515d;
+color: #ffffff;
+font-family: georgia;
+font-size: 1.5em;
+text-align: center;
+vertical-align: middle;
+margin: 0 auto;
+line-height: 0.001em;}
+
+.kanjiback
+{line-height: 2.5em;}
+
+#kanji_main a
+{text-decoration: none;}
+
+.sourcelink
+{float: left;
+clear: both;
+text-decoration: none;
+font-size: 0.8em;
+color: #44515d;
+margin: 0;}
+
+.sourcelink:hover
+{color: #c94f3a;}
+
+/********** Placeholder box for stroke order **********/
+
+.strokes
+{text-align: center;
+position: fixed;
+z-index: 999;
+top: 50%;
+left: 50%;
+width: 600px;
+height: 600px;
+margin-top: -300px;
+margin-left: -300px;}

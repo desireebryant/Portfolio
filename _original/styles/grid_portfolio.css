@@ -1,0 +1,85 @@
+/* Grid Width: 1440px
+Columns: 12
+Column width: 98px
+Gutter: 24px */
+
+/* lets you choose whether or not to include borders and padding in the width of the content */
+
+*, *:before, *:after
+{-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;}
+
+/* wraps the whole site in a big ol' box */
+
+.container
+{width: 90%;
+max-width: 1440px;
+margin: 0 auto;}
+
+/* column widths with percentages */
+
+.column1	{width: 6.806%;}	/* 98px */ 
+.column2 	{width: 15.278%;}	/* 220px */ 
+.column3 	{width: 23.750%;}	/* 342px */ 
+.column4 	{width: 32.222%;}	/* 464px */ 
+.column5 	{width: 40.694%;}	/* 586px */ 
+.column6 	{width: 49.167%;}	/* 708px */ 
+.column7 	{width: 57.639%;}	/* 830px */ 
+.column8 	{width: 66.111%;}	/* 952px */ 
+.column9 	{width: 74.583%;}	/* 1074px */ 
+.column10 	{width: 83.056%;}	/* 1196px */ 
+.column11 	{width: 91.528%;}	/* 1318px */ 
+.column12 	{width:    100%;}	/* 1440px */
+
+/* aligns this grid horizontally */
+
+.column1, .column2, .column3, .column4, .column5, .column6, .column7, 
+.column8,.column9,.column10,.column11,.column12
+
+/* right margin = gutter/grid width (x100) */
+
+{margin: 0  1.667% 0 0;
+float: left;
+display: block;}
+
+/* adds rows when necessary */
+
+.row
+{clear: both;
+overflow: hidden;}
+
+/* clearfix hack */
+
+.clearfix:before, .clearfix:after
+{content: " ";
+display: table;}
+
+.clearfix:after
+{clear: both;}
+
+.clearfix
+{zoom: 1;}
+
+/* removes funky margins and padding when necessary */
+ 
+ .front
+{margin-left: 0;}
+
+.back
+{margin-right: 0;}
+
+.leftside
+{margin-left: 0;
+padding-left: 0;}
+.rightside
+{margin-right: 0;
+padding-right: 0;}
+
+.topside
+{margin-top: 0;
+padding-top: 0;}
+
+.bottomside
+{margin-bottom: 0;
+padding-bottom: 0;}

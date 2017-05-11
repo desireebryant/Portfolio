@@ -1,0 +1,5 @@
+[17-Mar-2014 16:34:26] PHP Parse error:  syntax error, unexpected ';' in /home3/dbryant/public_html/projects/fukurou/userforum.php on line 11
+[17-Mar-2014 16:35:39] PHP Parse error:  syntax error, unexpected ';' in /home3/dbryant/public_html/projects/fukurou/userforum.php on line 11
+[17-Mar-2014 16:35:57] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/dbryant/public_html/projects/fukurou/userforum.php on line 12
+[17-Mar-2014 16:36:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/dbryant/public_html/projects/fukurou/userforum.php on line 12
+[24-Mar-2014 19:14:07] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home3/dbryant/public_html/projects/fukurou/forum.php on line 46

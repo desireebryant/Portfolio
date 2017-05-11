@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* Reset */
+*
+{margin: 0px;
+padding: 0px;}
+
+/* End of Reset */
+
+html, body 
+/* Parent element must have height and width at 100% for sticky footer */
+
+{height: 100%;
+width: 100%}
+
+#wrapper 
+/* Div around body */
+
+{min-height: 100%; 
+/* Min-height ensures page covers entire browser window */
+
+max-width: 960px;
+margin: 0 auto;
+
+position: relative;}
+/* The element is positioned relative to its normal position */
+
+#content 
+/* div around everything under header including footer */
+
+{padding-bottom: 30px;} 
+/* Padding same as footer height */
+
+footer
+{width: 960px;
+height: 30px;
+
+position: absolute; 
+/* The element is positioned relative to its first positioned (not static) ancestor element */
+
+bottom: 0;}
