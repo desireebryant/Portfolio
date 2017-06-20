@@ -6,4 +6,4 @@ The latest version is linked below:
 
 [My Portfolio](http://desireebryant.com/)
 
-**Note: This is a continuous work-in-progress. It will never be "done".
+** Note: This is a continuous work-in-progress. It will never be "done".
