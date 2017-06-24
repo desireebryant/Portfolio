@@ -1,6 +1,6 @@
 <?php
 	//Database login information
-	$host="localhost";
+	$host="********";
 	$user="********";
 	$pass="********";
 	$db="*********";
