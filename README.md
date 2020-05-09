@@ -7,3 +7,9 @@ The latest version is linked below:
 [My Portfolio](http://desireebryant.com/)
 
 ** Note: This is a continuous work-in-progress. It will never be "done".
+
+May 2020:
+
+Migrate from Jekyll to Gatsby
+
+
